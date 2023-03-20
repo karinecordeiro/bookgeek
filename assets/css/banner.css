@@ -1,0 +1,31 @@
+.banner{
+    padding: 3rem 4rem;
+}
+.banner__titulo{
+    font-size: 2rem;
+    color: var(--cor-detalhe3);
+    margin-bottom: 0.75rem;
+}
+.banner__texto{
+    font-size: 1rem;
+    color: var(--cor-botaoHover);
+    margin-bottom: 0.75rem;
+}
+.banner__botao{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-detalhe1);
+    border-radius:0.95rem 0.25rem;
+    color: #fafafa;
+    cursor: pointer;
+}
+.banner__botao:hover{
+    background: var(--cor-detalhe3);
+}
+
+@media screen  and (max-width: 500px){
+    .banner{
+        padding: 2rem;
+    }
+}
