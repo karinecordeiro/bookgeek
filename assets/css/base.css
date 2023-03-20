@@ -1,10 +1,11 @@
 :root{   
     --cor-detalhe1: #60a28c;
-    --cor-detalhe2: #eed3d2;
+    --cor-detalhe2: #f4e5e5;
     --cor-detalhe3: #e16464;
     --cor-botao: #c8e5db;
     --cor-botaoHover: #114c43;
     --cor-fundo: #eaeaea;
+    --cor-fundoSecundario: #e2edda;
 }
 
 body{

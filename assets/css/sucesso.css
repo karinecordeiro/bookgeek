@@ -1,0 +1,28 @@
+.principal{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal__box {
+    background: var(--cor-detalhe1);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 2rem 5rem;
+    text-align: center;
+    }
+.principal__titulo{
+    color: var(--cor-fundo);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.principal__texto{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.principal__link{
+    color: var(--cor-detalhe2);
+    font-size: 12px;
+    text-decoration: underline;
+}

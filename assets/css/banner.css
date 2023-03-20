@@ -1,5 +1,6 @@
 .banner{
     padding: 3rem 4rem;
+    background: var(--cor-fundoSecundario);
 }
 .banner__titulo{
     font-size: 2rem;

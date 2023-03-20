@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/assets/css/cabecalho.css">
     <link rel="stylesheet" href="/assets/css/principal.css">
     <link rel="stylesheet" href="/assets/css/banner.css">
+    <link rel="stylesheet" href="/assets/css/categoria.css">
+    <link rel="stylesheet" href="/assets/css/contato.css">
 
 </head>
 <body>
@@ -34,7 +36,37 @@
             <p class="banner__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi, dicta odio ea doloremque natus explicabo necessitatibus unde corrupti libero velit magnam aperiam quos ad deleniti voluptatem laborum blanditiis rerum a praesentium illo!</p>
             <button class="banner__botao">Acesse</button>
         </section>
-    </main>
 
+        <section class="categoria">
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <h2 class="contato__titulo">Fale Conosco</h2>
+            <article class="contato__artigo">
+                <form class="contato__formulario" id="formulario">
+                    <div class="contato__input">
+                        <label class="label" for="nome">Nome:</label>
+                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()" required>
+                        <span class="input__erro">Digite um nome com pelo menos 3 caracteres</span>
+                    </div>
+                    <div class="contato__input">
+                        <label class="label" for="mensagem">Mensagem:</label>
+                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()" required></textarea>
+                        <span class="input__erro">Digite uma mensagem com até 300 caracteres.</span>
+                    </div>
+                    <button class="contato__botao" onclick="enviar()"><a href="/sucesso.html">Enviar</a></button>
+                </form>
+                <div class="contato__logo">
+                    <img class="contato__logo" src="/assets/img/bookgeek2.png" alt="logo-bookGeek">
+                </div>
+                
+            </article>
+        </section>
+    </main>
+    <script src="/assets/js/validacao.js"></script>
 </body>
 </html>
