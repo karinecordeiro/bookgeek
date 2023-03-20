@@ -1,0 +1,9 @@
+.rodape{
+    padding:2rem;
+}
+.rodape__nome{
+    font-size: 12px;
+    text-align: center;
+    color: var(--cor-detalhe3);
+    font-weight: 600;
+}
