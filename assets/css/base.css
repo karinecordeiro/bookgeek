@@ -1,0 +1,11 @@
+:root{   
+    --cor-tres: #60a28c;
+    --cor-quatro: #ff7575;
+    --cor-logo: #edc9c7;
+    --cor-botao: #c8e5db;
+    --cor-botaoHover: #114c43;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}

@@ -1,0 +1,45 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: var(--cor-tres);
+    padding: 0.5rem;
+}
+.cabecalho__logo{
+    max-width: 90px;
+}
+/*input*/
+.cabecalho__busca{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.cabecalho__input{
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+}
+.cabecalho__inputBotao{
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+/*login*/
+.cabecalho__botaoLogin{
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-botao);
+    border-radius:0.95rem 0.25rem;
+}
+.cabecalho__botaoLogin:hover{
+    background: var(--cor-botaoHover);
+    color: #fafafa;
+}
+@media screen and (max-width: 600px) {
+    .cabecalho__inputBotao, .cabecalho__botao{
+        margin-right: 0.75rem;
+    }
+}
