@@ -36,7 +36,7 @@
 }
 .cabecalho__botaoLogin:hover{
     background: var(--cor-botaoHover);
-    color: #fafafa;
+    color:var(--cor-letra);
 }
 @media screen and (max-width: 600px) {
     .cabecalho__inputBotao, .cabecalho__botao{

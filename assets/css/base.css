@@ -1,11 +1,12 @@
 :root{   
     --cor-detalhe1: #60a28c;
-    --cor-detalhe2: #f4e5e5;
+    --cor-detalhe2: #f8dfdf;
     --cor-detalhe3: #e16464;
     --cor-botao: #c8e5db;
     --cor-botaoHover: #114c43;
-    --cor-fundo: #eaeaea;
-    --cor-fundoSecundario: #e2edda;
+    --cor-fundo: #fff9f9;
+    --cor-fundoSecundario: #fdf0f0dd;
+    --cor-letra: #fafafa;
 }
 
 body{

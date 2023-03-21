@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/icone.png" type="image/png">
     <title>BookGeek</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,13 +23,13 @@
 <body>
     <header class="cabecalho">
             <h1 class="cabecalho__titulo"> 
-                <img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek" href="#">
+                <a href="index.html"><img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek"></a>
             </h1>
             <div class="cabecalho__busca" id="buscar">
                     <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
                     <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass-arrow-right "></i></button>
             </div>
-            <button class="cabecalho__botaoLogin">Login <i class="fa-solid fa-house-user"></i></button>
+            <button class="cabecalho__botaoLogin"> <a href="login.html"> Login <i class="fa-solid fa-house-user"></i></a></button>
     </header>
 
     <main class="principal">
@@ -51,15 +52,15 @@
                 <form class="contato__formulario" id="formulario">
                     <div class="contato__input">
                         <label class="label" for="nome">Nome:</label>
-                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()" required>
+                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()">
                         <span class="input__erro">Digite um nome com pelo menos 3 caracteres</span>
                     </div>
                     <div class="contato__input">
                         <label class="label" for="mensagem">Mensagem:</label>
-                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()" required></textarea>
+                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()"></textarea>
                         <span class="input__erro">Digite uma mensagem com até 300 caracteres.</span>
                     </div>
-                    <button class="contato__botao" onclick="enviar()"><a href="/sucesso.html">Enviar</a></button>
+                    <a href="sucesso.html" target="_blank"><button class="contato__botao" type="submit">Enviar</button></a>
                 </form>
                 <div class="contato__logo">
                     <img class="contato__logo" src="/assets/img/bookgeek2.png" alt="logo-bookGeek">
@@ -70,6 +71,6 @@
     <footer class="rodape">
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
-    <script src="/assets/js/validacao.js"></script>
+    <script src="/assets/js/validacaoMensagem.js"></script>
 </body>
 </html>

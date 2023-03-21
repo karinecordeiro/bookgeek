@@ -2,6 +2,12 @@ const formulario = document.getElementById('formulario');
 const campos = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.input__erro');
 
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+    nomeValidado();
+    mensagemValidado();
+})
+
 function inserirErro(index){
     campos[index].style.borderBottom = '2px solid #b92424';
     spans[index].style.display = 'block';
@@ -24,7 +30,4 @@ function mensagemValidado(){
     } else{ 
         removerErro(1);
     }
-}
-function enviar(){
-    
 }

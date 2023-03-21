@@ -43,26 +43,6 @@
     font-weight: 700;
 }
 
-/*input invalido*/
-.input__invalido {
-    margin-bottom: 0.5rem;
-}
-
-.input__invalido .input {
-    border-bottom: 2px solid var(--cor-detalhe3);
-    border-radius: 20px;
-}
-
-.input__invalido .input__erro {
-    color: var(--cor-detalhe3);
-    display: block;
-    margin-top: 0.5rem;
-    padding-left: 0.5rem;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-/*input invalido*/
 
 .contato__botao{
     padding: 0.5rem;

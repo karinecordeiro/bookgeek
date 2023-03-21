@@ -1,0 +1,58 @@
+.principal{
+    height: 76vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-detalhe1);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.login__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login__conjunto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.login__label{
+    margin-bottom: 0.75rem;
+    color:var(--cor-detalhe1);
+    font-weight: 600;
+}
+.login__input{
+    box-sizing: border-box;
+    margin-left: 0.25rem;
+    margin-bottom: 0.75rem;
+    border: none;
+    border-bottom:var(--cor-detalhe1) 0.1rem solid;
+    padding: 0.5rem;
+    width: 285px;
+}
+.mensagem__erro {
+    display: none;
+    font-size: 12px;
+    color: var(--cor-detalhe3); 
+    font-weight: 700;
+}
+.login__botao{
+    padding: 0.5rem 1.5rem;
+    border-radius:0.95rem 0.25rem;
+    border: none;
+    background: var(--cor-botao);
+    box-shadow: 1px 2px 1px 0px var(--cor-detalhe1);
+    cursor: pointer;
+}
+.login__botao:hover{
+    color: var(--cor-letra);
+    background: var(--cor-botaoHover);
+}
