@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/icone.png" type="image/png">
+    <title>Cadastro de produto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/produto.css">
+    <link rel="stylesheet" href="/assets/css/rodape.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo"> 
+            <a href="index.html"><img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek"></a>
+        </h1>
+        <div class="cabecalho__busca" id="buscar">
+                <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
+                <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></button>
+        </div>
+    </header>
+    
+    <main class="principal">
+        <section class="produto">
+            <h2 class="produto__titulo">Cadastrar produto</h2>
+            <form class="produto__formulario" id="formulario" action="index.html">
+                <fieldset class="produto__conjunto">
+                    <label class="produto__label" for="url">URL da imagem:</label>
+                    <input class="produto__input required" type="text" name="url" id="url" placeholder="cole a URL aqui...">
+                </fieldset>
+                <fieldset class="produto__conjunto">
+                    <label class="produto__label" for="categoria">Categoria</label>
+                    <input class="produto__input required" type="text" name="categoria" id="categoria" placeholder="digite a categoria..."> 
+                </fieldset>
+                <fieldset class="produto__conjunto">
+                    <label class="produto__label" for="nome">Nome do produto:</label>
+                    <input class="produto__input required" type="text" name="nome" id="nome" placeholder="digite o nome...">
+                </fieldset>
+                <fieldset class="produto__conjunto">
+                    <label class="produto__label" for="preco">Preço:</label>
+                    <input class="produto__input required" type="number" name="preco" id="preco" placeholder="digite o preço...">
+                </fieldset>
+                <fieldset class="produto__conjunto">
+                    <label class="produto__label" for="descricao">Descrição:</label>
+                    <textarea class="produto__input required" type="text" name="descricao" id="descricao" placeholder="digite a descrição..."></textarea>
+                    <!-- <textarea class="produto__input required" type="text" name="descricao" id="descricao" placeholder="cole a URL aqui..."></textarea> -->
+                </fieldset>
+                <a href="index.html"><input class="produto__botao" type="submit" name="enviar" id="enviar" value="entrar"></a>
+            </form>
+        </section>
+    </main>
+    <script src=""></script>
+</body>
+</html>

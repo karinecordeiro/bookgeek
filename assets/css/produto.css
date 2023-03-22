@@ -1,0 +1,59 @@
+.produto{
+    padding: 3rem 4rem;
+}
+.produto__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--cor-detalhe1);
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.produto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 2rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.produto__conjunto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+.produto__label{
+    margin-bottom: 0.75rem;
+    color:var(--cor-detalhe1);
+    font-weight: 600;
+}
+.produto__input{
+    box-sizing: border-box;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-bottom:var(--cor-detalhe1) 0.1rem solid;
+    padding: 0.5rem;
+    width: 285px;
+}
+.mensagem__erro {
+    display: none;
+    font-size: 12px;
+    color: var(--cor-detalhe3); 
+    font-weight: 700;
+}
+.produto__botao{
+    padding: 0.5rem 1.5rem;
+    border-radius:0.95rem 0.25rem;
+    border: none;
+    background: var(--cor-botao);
+    box-shadow: 1px 2px 1px 0px var(--cor-detalhe1);
+    cursor: pointer;
+}
+.produto__botao:hover{
+    color: var(--cor-letra);
+    background: var(--cor-botaoHover);
+}
