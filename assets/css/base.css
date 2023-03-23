@@ -13,3 +13,16 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     background: var(--cor-fundo);
 }
+body::-webkit-scrollbar {
+    width: 1rem;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--cor-detalhe2);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor-detalhe1);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 0.25rem solid var(--cor-detalhe2);  /* creates padding around scroll thumb */
+}
