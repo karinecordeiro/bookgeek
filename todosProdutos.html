@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/icone.png" type="image/png">
+    <title>BookGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/cabecalho.css">
+    <link rel="stylesheet" href="/assets/css/principal.css">
+    <link rel="stylesheet" href="/assets/css/produtos.css">
+    <link rel="stylesheet" href="/assets/css/contato.css">
+    <link rel="stylesheet" href="/assets/css/rodape.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+            <h1 class="cabecalho__titulo"> 
+                <a href="index.html"><img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek"></a>
+            </h1>
+            <div class="cabecalho__busca" id="buscar">
+                    <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
+                    <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass-arrow-right "></i></button>
+            </div>
+            <button class="cabecalho__botaoLogin"> <a href="login.html"> Login <i class="fa-solid fa-house-user"></i></a></button>
+    </header>
+
+    <main class="principal">
+    
+        <section class="produto">
+            <h2 class="produto__titulo">Todos os produtos</h2>
+                <h2 class="produto__subtitulo"></h2>
+                <ul class="produto__lista">
+                    <li class="produto__item">
+                        <img class="produto__imagem" src="" alt="imagem">
+                        <h3 class="produto__nome"></h3>
+                        <h3 class="produto__preco"></h3>
+                        <h3 class="produto__codigo"></h3>
+                    </li>
+                </ul>
+        </section>
+        
+
+        <section class="contato">
+            <h2 class="contato__titulo">Fale Conosco</h2>
+            <article class="contato__artigo">
+                <form class="contato__formulario" id="formulario">
+                    <div class="contato__input">
+                        <label class="label" for="nome">Nome:</label>
+                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()">
+                        <span class="input__erro">Digite um nome com pelo menos 3 caracteres</span>
+                    </div>
+                    <div class="contato__input">
+                        <label class="label" for="mensagem">Mensagem:</label>
+                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()"></textarea>
+                        <span class="input__erro">Digite uma mensagem com até 300 caracteres.</span>
+                    </div>
+                    <a href="#"><button class="contato__botao">Enviar</button></a>
+                </form>
+                <div class="contato__logo">
+                    <img class="contato__logo" src="/assets/img/bookgeek2.png" alt="logo-bookGeek">
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
+    </footer>
+    <script src="/assets/js/validacaoMensagem.js"></script>
+</body>
+</html>
