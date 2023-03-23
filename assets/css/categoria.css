@@ -6,11 +6,25 @@
     color: var(--cor-detalhe1);
     margin-bottom: 1rem;
 }
+.categoria__divisao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .categoria__subtitulo{
     font-size: 1.25rem;
     color: var(--cor-detalhe3);
     margin-block: 2rem;
     text-transform: uppercase;
+}
+.categoria__todosProdutos{
+    font-size: 13px;
+    color: var(--cor-detalhe1);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.categoria__todosProdutos:hover{
+    color: var(--cor-botaoHover);
 }
 .categoria__lista{
     display: flex;

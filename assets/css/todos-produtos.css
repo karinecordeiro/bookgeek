@@ -6,11 +6,28 @@
     color: var(--cor-detalhe1);
     margin-bottom: 1rem;
 }
+.produto__divisao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .produto__subtitulo{
     font-size: 1.25rem;
     color: var(--cor-detalhe3);
     margin-block: 2rem;
     text-transform: uppercase;
+}
+.produto__botao{
+    font-size: 13px;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--cor-botao);
+    border-radius:0.95rem 0.25rem;
+    }
+.produto__botao:hover{
+    background: var(--cor-botaoHover);
+    color:var(--cor-letra);
 }
 .produto__lista{
     display: flex;
