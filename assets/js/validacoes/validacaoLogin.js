@@ -4,10 +4,10 @@ const spans = document.querySelectorAll('.mensagem__erro');
 const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 const senhaRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$/;
 
-formulario.addEventListener('submit', (event) => {
-    event.preventDefault();
-    emailValidado();
-    senhaValidada();
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault();
+    emailValidado()
+    senhaValidada()
 })
 
 function inserirErro(index){
@@ -30,7 +30,6 @@ function senhaValidada(){
     if(!senhaRegex.test(campos[1].value)){
         inserirErro(1);
     } else{ 
-        removerErro(1);
-        
+        removerErro(1); 
     }
 }

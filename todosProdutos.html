@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/cabecalho.css">
     <link rel="stylesheet" href="/assets/css/principal.css">
-    <link rel="stylesheet" href="/assets/css/todos-produtos.css">
+    <link rel="stylesheet" href="/assets/css/categoria.css">
     <link rel="stylesheet" href="/assets/css/contato.css">
     <link rel="stylesheet" href="/assets/css/rodape.css">
 
@@ -33,20 +33,13 @@
 
     <main class="principal">
     
-        <section class="produto">
-            <div class="produto__divisao">
-                <h2 class="produto__titulo">Todos os produtos</h2>
-                <a class="produto__botao" href="cadastroProduto.html" target="_blank">cadastrar produto</a>
-            </div>
-                <h2 class="produto__subtitulo"></h2>
-                <ul class="produto__lista">
-                    <li class="produto__item">
-                        <img class="produto__imagem" src="" alt="imagem">
-                        <h3 class="produto__nome"></h3>
-                        <h3 class="produto__preco"></h3>
-                        <h3 class="produto__codigo"></h3>
-                    </li>
+        <section class="categoria">
+            <h2 class="categoria__titulo">Todos os produtos</h2>
+            <article class="categoria__artigo">
+                <ul class="categoria__lista" data-produto>
+                    
                 </ul>
+            </article>
         </section>
         
 
@@ -76,5 +69,6 @@
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
     <script src="/assets/js/validacaoMensagem.js"></script>
+    <script src="/assets/js/service/produto-service.js"></script>
 </body>
 </html>

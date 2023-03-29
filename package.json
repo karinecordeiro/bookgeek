@@ -1,0 +1,12 @@
+{
+  "name": "bookgeek",
+  "version": "1.0.0",
+  "description": "projeto de e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karine",
+  "license": "ISC",
+  "type": "module"
+}

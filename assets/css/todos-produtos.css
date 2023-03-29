@@ -8,8 +8,8 @@
 }
 .produto__divisao{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 .produto__subtitulo{
     font-size: 1.25rem;
