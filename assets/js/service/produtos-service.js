@@ -1,14 +1,14 @@
 //REQUISIÇÕES COM A API
 
 const listaProdutos = () =>{
-    return fetch(`https://bookgeek.netlify.app/produtos`)
+    return fetch(`http://localhost:3000/produtos`)
     .then(resposta => {
         return resposta.json()
     })
 }
 
 const criarProduto = (nome, imagemUrl, preco, categoria) => {
-    return fetch(`https://bookgeek.netlify.app/produtos`, {
+    return fetch(`http://localhost:3000/produtos`, {
         method: 'POST',
         headers: { 
             'Content-type' : 'application/json'
