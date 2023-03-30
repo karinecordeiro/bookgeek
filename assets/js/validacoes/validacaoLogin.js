@@ -8,6 +8,7 @@ formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
     emailValidado()
     senhaValidada()
+    window.location.href = '/todosProdutos.html'
 })
 
 function inserirErro(index){

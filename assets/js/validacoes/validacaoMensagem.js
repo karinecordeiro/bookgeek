@@ -4,8 +4,9 @@ const spans = document.querySelectorAll('.input__erro');
 
 formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
-    nomeValidado();
-    mensagemValidado();
+    nomeValidado() 
+    mensagemValidado() 
+    window.location.href = '/sucesso.html'
 })
 
 function inserirErro(index){

@@ -58,15 +58,15 @@
                 <form class="contato__formulario" id="formulario">
                     <div class="contato__input">
                         <label class="label" for="nome">Nome:</label>
-                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()">
+                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()" required>
                         <span class="input__erro">Digite um nome com pelo menos 3 caracteres</span>
                     </div>
                     <div class="contato__input">
                         <label class="label" for="mensagem">Mensagem:</label>
-                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()"></textarea>
+                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()" required></textarea>
                         <span class="input__erro">Digite uma mensagem com até 300 caracteres.</span>
                     </div>
-                    <a href="#"><button class="contato__botao">Enviar</button></a>
+                    <button class="contato__botao" type="submit">Enviar</button></a>
                 </form>
                 <div class="contato__logo">
                     <img class="contato__logo" src="/assets/img/bookgeek2.png" alt="logo-bookGeek">

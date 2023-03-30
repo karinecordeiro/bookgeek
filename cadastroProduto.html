@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/cabecalho.css">
     <link rel="stylesheet" href="/assets/css/cadastro-produto.css">
-    <link rel="stylesheet" href="/assets/css/rodape.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -30,32 +29,27 @@
     <main class="principal">
         <section class="produto">
             <h2 class="produto__titulo">Cadastrar produto</h2>
-            <form class="produto__formulario" id="formulario" action="index.html">
+            <form class="produto__formulario" id="formulario" data-formulario>
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="url">URL da imagem:</label>
-                    <input class="produto__input required" type="text" name="url" id="url" placeholder="cole a URL aqui...">
+                    <input class="produto__input required" type="text" name="url" id="url" data-url placeholder="cole a URL aqui..." required>
                 </fieldset>
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="categoria">Categoria</label>
-                    <input class="produto__input required" type="text" name="categoria" id="categoria" placeholder="digite a categoria..."> 
+                    <input class="produto__input required" type="text" name="categoria" id="categoria" data-categoria placeholder="digite a categoria..." required> 
                 </fieldset>
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="nome">Nome do produto:</label>
-                    <input class="produto__input required" type="text" name="nome" id="nome" placeholder="digite o nome...">
+                    <input class="produto__input required" type="text" name="nome" id="nome" data-nome placeholder="digite o nome..." required>
                 </fieldset>
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="preco">Preço:</label>
-                    <input class="produto__input required" type="number" name="preco" id="preco" placeholder="digite o preço...">
+                    <input class="produto__input required" type="float" name="preco" id="preco" data-preco placeholder="digite o preço..." required>
                 </fieldset>
-                <fieldset class="produto__conjunto">
-                    <label class="produto__label" for="descricao">Descrição:</label>
-                    <textarea class="produto__input required" type="text" name="descricao" id="descricao" placeholder="digite a descrição..."></textarea>
-                    <!-- <textarea class="produto__input required" type="text" name="descricao" id="descricao" placeholder="cole a URL aqui..."></textarea> -->
-                </fieldset>
-                <a href="index.html"><input class="produto__botao" type="submit" name="enviar" id="enviar" value="entrar"></a>
+                <input class="produto__botao" type="submit" name="enviar" id="enviar" value="entrar"/>
             </form>
         </section>
     </main>
-    <script src=""></script>
+    <script src="/assets/js/controller/cadastraProdutos-controller.js" type="module"></script>
 </body>
 </html>

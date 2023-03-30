@@ -60,9 +60,16 @@
     font-weight: 700;
     color: var(--cor-detalhe1);
 }
-.categoria__codigo{
+.categoria__categoria{
     text-align: end;
     font-size: 11px;
     text-decoration: underline;
     font-weight: 600;
+}
+.categoria__botao{
+    color: var(--cor-detalhe1);
+    text-decoration: underline;
+}
+.categoria__botao:hover{
+    color: var(--cor-botaoHover);
 }

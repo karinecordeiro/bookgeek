@@ -1,18 +1,25 @@
 {
-    "produtos": [
-        {
-            "nome": "Jogador número um",
-            "imagemUrl": "https://m.media-amazon.com/images/I/61CzhpWdbOL.jpg",
-            "preco": "21.90",
-            "id": 1,
-            "categoria": "Ficção cientifica"
-        },
-        {
-            "nome": "Orgulho e preconceito",
-            "imagemUrl": "https://m.media-amazon.com/images/I/81zxDaAx4WL.jpg",
-            "preco": "28.40",
-            "id": 2,
-            "categoria": "Romance histórico"
-        }
-    ]
+  "produtos": [
+    {
+      "nome": "Jogador número um",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61CzhpWdbOL.jpg",
+      "preco": "R$ 17,23",
+      "categoria": "Ficção científica",
+      "id": 1
+    },
+    {
+      "nome": "Jogador número dois",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61zFH8sqjaL.jpg",
+      "preco": "R$ 25,72",
+      "categoria": "Ficção científica",
+      "id": 2
+    },
+    {
+      "nome": "A culpa é das estrelas",
+      "imagemUrl": "https://static.fnac-static.com/multimedia/Images/PT/NR/5a/ae/0c/831066/1540-1/tsp20160817145127/A-Culpa-e-das-Estrelas.jpg",
+      "preco": "R$ 25,00",
+      "categoria": "Romance",
+      "id": 3
+    }
+  ]
 }

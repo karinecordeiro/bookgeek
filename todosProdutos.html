@@ -28,13 +28,16 @@
                     <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
                     <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass-arrow-right "></i></button>
             </div>
-            <button class="cabecalho__botaoLogin"> <a href="login.html"> Login <i class="fa-solid fa-house-user"></i></a></button>
     </header>
 
     <main class="principal">
     
         <section class="categoria">
-            <h2 class="categoria__titulo">Todos os produtos</h2>
+            <div class="categoria__divisao">
+                <h2 class="categoria__titulo">Todos os produtos</h2>
+                <a class="categoria__botao" href="cadastroProduto.html" target="_blank">cadastrar produto <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            
             <article class="categoria__artigo">
                 <ul class="categoria__lista" data-produto>
                     
@@ -69,6 +72,6 @@
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
     <script src="/assets/js/validacaoMensagem.js"></script>
-    <script src="/assets/js/service/produtos-service.js" type="module"></script>
+    <script src="/assets/js/controller/produtos-controller.js" type="module"></script>
 </body>
 </html>

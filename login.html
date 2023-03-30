@@ -33,15 +33,15 @@
             <form class="login__formulario" id="formulario">
                 <fieldset class="login__conjunto">
                     <label class="login__label" for="email">E-mail:</label>
-                    <input class="login__input required" type="email" name="email" id="email" placeholder="exemplo@email.com" oninput="emailValidado()">
+                    <input class="login__input required" type="email" name="email" id="email" placeholder="exemplo@email.com" oninput="emailValidado()" required>
                     <span class="mensagem__erro">Digite um e-mail valido: nome@email.com</span>
                 </fieldset>
                 <fieldset class="login__conjunto">
                     <label class="login__label" for="senha">Senha:</label>
-                    <input class="login__input required" type="password" name="senha" id="senha" placeholder="digite uma senha válida" oninput="senhaValidada()">
+                    <input class="login__input required" type="password" name="senha" id="senha" placeholder="digite uma senha válida" oninput="senhaValidada()" required>
                     <span class="mensagem__erro"> * A senha deve conter entre 6 a 12 caracteres; <br> * Pelo menos uma letra maiúscula; <br> * Um número; <br> * Não deve conter símbolos.</span>
                 </fieldset>
-                <a href="index.html"><input class="login__botao" type="submit" name="enviar" id="enviar" value="entrar"></a>
+                <input class="login__botao" type="submit" name="enviar" id="enviar" value="entrar">
             </form>
         </section>
     </main>
