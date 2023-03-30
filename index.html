@@ -41,7 +41,13 @@
 
         <section class="categoria">
             <h2 class="categoria__titulo">Categorias</h2>
-            <article class="categoria__artigo" data-categoria>
+            <article class="categoria__artigo" >
+                <div class="categoria__divisao">
+                    <h2 class="categoria__subtitulo"></h2>
+                </div>
+                <ul class="categoria__lista" data-produto>
+                    <!-- <h3 class="categoria__codigo">${id}</h3> -->
+                </ul>
             </article>
         </section>
         
@@ -72,6 +78,6 @@
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
     <script src="/assets/js/validacoes/validacaoMensagem.js"></script>
-    <script src="/assets/js/service/categoria-service.js"></script>
+    <script src="/assets/js/controller/produtos-controller.js" type="module"></script>
 </body>
 </html>

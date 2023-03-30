@@ -1,18 +1,18 @@
 {
-    "categoria": [
+    "produtos": [
         {
-            "categoria": "Ficção cientifica",
             "nome": "Jogador número um",
             "imagemUrl": "https://m.media-amazon.com/images/I/61CzhpWdbOL.jpg",
             "preco": "21.90",
-            "id": "#0001"
+            "id": 1,
+            "categoria": "Ficção cientifica"
         },
         {
-            "categoria": "Romance histórico",
             "nome": "Orgulho e preconceito",
             "imagemUrl": "https://m.media-amazon.com/images/I/81zxDaAx4WL.jpg",
             "preco": "28.40",
-            "id": "#0002"
+            "id": 2,
+            "categoria": "Romance histórico"
         }
     ]
 }
