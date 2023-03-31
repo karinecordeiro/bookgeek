@@ -19,3 +19,11 @@
     margin-bottom: 1rem;
 }
 
+.principal__link{
+    color: var(--cor-detalhe2);
+    text-decoration: underline;
+}
+.principal__link:hover{
+    color: var(--cor-botaoHover);
+
+}

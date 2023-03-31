@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/cabecalho.css">
-    <link rel="stylesheet" href="/assets/css/principal.css">
     <link rel="stylesheet" href="/assets/css/categoria.css">
-    <link rel="stylesheet" href="/assets/css/contato.css">
     <link rel="stylesheet" href="/assets/css/rodape.css">
 
 </head>
@@ -47,32 +45,11 @@
         </section>
         
 
-        <section class="contato">
-            <h2 class="contato__titulo">Fale Conosco</h2>
-            <article class="contato__artigo">
-                <form class="contato__formulario" id="formulario">
-                    <div class="contato__input">
-                        <label class="label" for="nome">Nome:</label>
-                        <input class="input required" type="text" id="nome" name="nome" placeholder="digite seu nome..." oninput="nomeValidado()">
-                        <span class="input__erro">Digite um nome com pelo menos 3 caracteres</span>
-                    </div>
-                    <div class="contato__input">
-                        <label class="label" for="mensagem">Mensagem:</label>
-                        <textarea class="textarea required" type="text" id="mensagem" name="mensagem"  placeholder="conte-me algo..." oninput="mensagemValidado()"></textarea>
-                        <span class="input__erro">Digite uma mensagem com até 300 caracteres.</span>
-                    </div>
-                    <a href="#"><button class="contato__botao">Enviar</button></a>
-                </form>
-                <div class="contato__logo">
-                    <img class="contato__logo" src="/assets/img/bookgeek2.png" alt="logo-bookGeek">
-                </div>
-            </article>
-        </section>
+        
     </main>
     <footer class="rodape">
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
-    <script src="/assets/js/validacaoMensagem.js"></script>
     <script src="/assets/js/controller/produtos-controller.js" type="module"></script>
 </body>
 </html>

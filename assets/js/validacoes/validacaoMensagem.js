@@ -6,7 +6,7 @@ formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
     nomeValidado() 
     mensagemValidado() 
-    window.location.href = '/sucesso.html'
+    window.location.href = '/sucessoMensagem.html'
 })
 
 function inserirErro(index){

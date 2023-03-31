@@ -1,25 +1,39 @@
 {
   "produtos": [
     {
-      "nome": "Jogador número um",
-      "imagemUrl": "https://m.media-amazon.com/images/I/61CzhpWdbOL.jpg",
-      "preco": "R$ 17,23",
-      "categoria": "Ficção científica",
+      "nome": "Trono de vidro",
+      "imagemUrl": "https://m.media-amazon.com/images/I/81sppP3MAkL.jpg",
+      "preco": "R$ 35,90",
+      "categoria": "Fantasia",
       "id": 1
     },
     {
-      "nome": "Jogador número dois",
-      "imagemUrl": "https://m.media-amazon.com/images/I/61zFH8sqjaL.jpg",
-      "preco": "R$ 25,72",
-      "categoria": "Ficção científica",
+      "nome": "Recursão",
+      "imagemUrl": "https://m.media-amazon.com/images/I/51flL-6+6IL.jpg",
+      "preco": "R$ 28,70",
+      "categoria": "Ficção Científica",
       "id": 2
     },
     {
-      "nome": "A culpa é das estrelas",
-      "imagemUrl": "https://static.fnac-static.com/multimedia/Images/PT/NR/5a/ae/0c/831066/1540-1/tsp20160817145127/A-Culpa-e-das-Estrelas.jpg",
-      "preco": "R$ 25,00",
-      "categoria": "Romance",
+      "nome": "Jane Eyre",
+      "imagemUrl": "https://m.media-amazon.com/images/I/911HhiTClmS.jpg",
+      "preco": "R$ 18,50",
+      "categoria": "Romance Hitórico",
       "id": 3
+    },
+    {
+      "nome": "A hipótese do amor",
+      "imagemUrl": "https://m.media-amazon.com/images/I/41knBs4ouOL.jpg",
+      "preco": "R$ 31,90",
+      "categoria": "Romance Contemporâneo",
+      "id": 4
+    },
+    {
+      "nome": "As musas",
+      "imagemUrl": "https://m.media-amazon.com/images/I/41-Z4lbdhpS.jpg",
+      "preco": "R$ 15,00",
+      "categoria": "Suspense",
+      "id": 5
     }
   ]
 }

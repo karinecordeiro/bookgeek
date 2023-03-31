@@ -28,8 +28,20 @@ const criarProduto = (nome, imagemUrl, preco, categoria) => {
     })
 }
 
+const removerProduto = (id) => {
+    return fetch(`http://localhost:3000/produto/${id}`, {
+        method: 'DELETE' 
+    })
+    // .then(resposta => {
+    //     if(!resposta.ok){
+    //         throw new Error('Não foi possível remover um ciente')
+    //     }
+    // })
+}
+
 export const produtosService = {
     listaProdutos,
     criarProduto,
+    removerProduto,
 }
 
