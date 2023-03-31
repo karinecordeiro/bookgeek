@@ -49,10 +49,10 @@
     margin-bottom: 0.75rem;
 }
 .categoria__nome{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: var(--cor-detalhe3);
-    line-height: 0.60rem;
+    line-height: 0.80rem;
     margin-bottom: 0.65rem;
 }
 .categoria__preco{
@@ -61,15 +61,27 @@
     color: var(--cor-detalhe1);
 }
 .categoria__categoria{
-    text-align: end;
+    color: var(--cor-botaoHover);
+    margin-top: 0.75em;
     font-size: 11px;
     text-decoration: underline;
     font-weight: 600;
 }
-.categoria__botao{
+.categoria__divisaoBotao{
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: var(--cor-botao)
+}
+.categoria__editar:hover, .categoria__excluir:hover{
+    color: var(--cor-botaoHover);
+}
+.categoria__botaoCadastrar{
     color: var(--cor-detalhe1);
     text-decoration: underline;
 }
-.categoria__botao:hover{
+.categoria__botaoCadastrar:hover{
     color: var(--cor-botaoHover);
 }

@@ -30,7 +30,7 @@
     color:var(--cor-detalhe1);
     font-weight: 600;
 }
-.produto__input{
+.produto__input, .produto__categorias{
     box-sizing: border-box;
     margin-left: 0.25rem;
     margin-bottom: 0.5rem;

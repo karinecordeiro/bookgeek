@@ -29,24 +29,55 @@
                     <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
                     <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-            <button class="cabecalho__botaoLogin"> <a href="login.html"> Login <i class="fa-solid fa-house-user"></i></a></button>
     </header>
 
     <main class="principal">
         <section class="banner">
-            <h1 class="banner__titulo">Mês da fantasia</h1>
-            <p class="banner__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi, dicta odio ea doloremque natus explicabo necessitatibus unde corrupti libero velit magnam aperiam quos ad deleniti voluptatem laborum blanditiis rerum a praesentium illo!</p>
-            <button class="banner__botao">Acesse</button>
+            <h1 class="banner__titulo">Venda seu livro com a gente</h1>
+            <p class="banner__texto">Já pensou em vender seus livros parados sem precisar sair de casa? O bookgeek é o lugar certo para isso! Anuncie seus livros parados ou encalhados no nosso site fazendo o login, é só acessar o botão abaixo.</p>
+            <button class="banner__botao"> <a href="login.html"> Login <i class="fa-solid fa-house-user"></i></a></button>
         </section>
 
         <section class="categoria">
             <h2 class="categoria__titulo">Categorias</h2>
-            <article class="categoria__artigo" >
-                <div class="categoria__divisao">
-                    <h2 class="categoria__subtitulo"></h2>
-                </div>
-                <ul class="categoria__lista" data-produto>
-                    <!-- <h3 class="categoria__codigo">${id}</h3> -->
+            
+            <!-- todo: FICÇÃO CIENTÍFICA -->
+            <article class="categoria__artigo">
+                <h2 class="categoria__subtitulo">Ficção científica</h2>
+                <ul class="categoria__lista" data-produto-ficcao>
+
+                </ul>
+            </article>
+
+            <!-- todo: ROMANCE HISTÓRICO -->
+            <article class="categoria__artigo">
+                <h2 class="categoria__subtitulo">Romance histórico</h2>              
+                <ul class="categoria__lista" data-produto-romanceH>
+
+                </ul>
+            </article>
+
+            <!-- todo: ROMANCE CONTEMPORÂNEO -->
+            <article class="categoria__artigo">
+                <h2 class="categoria__subtitulo">Romance contemporâneo</h2>
+                <ul class="categoria__lista" data-produto-romanceC>
+
+                </ul>
+            </article>
+            
+            <!-- todo: FANTASIA -->
+            <article class="categoria__artigo">
+                <h2 class="categoria__subtitulo">Fantasia</h2>
+                <ul class="categoria__lista" data-produto-fantasia>
+
+                </ul>
+            </article>
+            
+            <!-- todo: SUPENSE -->
+            <article class="categoria__artigo">
+                <h2 class="categoria__subtitulo">Suspense</h2>
+                <ul class="categoria__lista" data-produto-suspense>
+
                 </ul>
             </article>
         </section>
@@ -78,6 +109,6 @@
         <h2 class="rodape__nome">Desenvolvido por Karine Cordeiro - &copy 2023</h2>
     </footer>
     <script src="/assets/js/validacoes/validacaoMensagem.js"></script>
-    <script src="/assets/js/controller/produtos-controller.js" type="module"></script>
+    <script src="/assets/js/controller/indexProdutos-controller.js" type="module"></script>
 </body>
 </html>

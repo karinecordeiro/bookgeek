@@ -11,19 +11,11 @@
     box-sizing: border-box;
     padding: 2rem 5rem;
     text-align: center;
+    width: 500px;
     }
-.principal__titulo{
+.principal__titulo, .principal__icone{
     color: var(--cor-fundo);
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
-.principal__texto{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-}
-.principal__link{
-    color: var(--cor-detalhe2);
-    font-size: 12.5px;
-    font-weight: 600;
-    text-decoration: underline;
-}
+

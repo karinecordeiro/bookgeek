@@ -25,21 +25,20 @@
     border-radius: 0px 5px 5px 0px;
     cursor: pointer;
 }
-
-/*login*/
-.cabecalho__botaoLogin{
+.cabecalho__botao{
     padding: 0.5rem;
     border: none;
     cursor: pointer;
     background-color: var(--cor-botao);
     border-radius:0.95rem 0.25rem;
 }
-.cabecalho__botaoLogin:hover{
+.cabecalho__botao:hover{
     background: var(--cor-botaoHover);
     color:var(--cor-letra);
-}
+} 
+
 @media screen and (max-width: 600px) {
-    .cabecalho__inputBotao, .cabecalho__botao{
+    .cabecalho__inputBotao{
         margin-right: 0.75rem;
     }
 }

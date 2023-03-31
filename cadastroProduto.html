@@ -18,30 +18,40 @@
 <body>
     <header class="cabecalho">
         <h1 class="cabecalho__titulo"> 
-            <a href="index.html"><img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek"></a>
+            <img class="cabecalho__logo" src="/assets/img/bookgeek.png" alt="logo-bookGeek">
         </h1>
-        <div class="cabecalho__busca" id="buscar">
-                <input class="cabecalho__input" type="text" id="busca" placeholder="buscar..."/>
-                <button class="cabecalho__inputBotao" id="botaoBusca"><i class="fa-solid fa-magnifying-glass-arrow-right"></i></button>
-        </div>
     </header>
     
     <main class="principal">
         <section class="produto">
             <h2 class="produto__titulo">Cadastrar produto</h2>
             <form class="produto__formulario" id="formulario" data-formulario>
+                <!-- todo: url -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="url">URL da imagem:</label>
-                    <input class="produto__input required" type="text" name="url" id="url" data-url placeholder="cole a URL aqui..." required>
+                    <input class="produto__input required" type="url" name="url" id="url" data-url placeholder="cole a URL aqui..." required>
                 </fieldset>
+
+                <!-- todo: categoria -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="categoria">Categoria</label>
-                    <input class="produto__input required" type="text" name="categoria" id="categoria" data-categoria placeholder="digite a categoria..." required> 
+                    <select id="categoria" name="categoria" class="produto__categorias" size="1">
+                        <option>Selecione uma opção...</option>
+                        <option value="ficcaoC" data-ficcaoC>Ficção Científica</option>
+                        <option value="romanceH" data-romanceH>Romance Histórico</option>
+                        <option value="romanceC" data-romanceC>Romance Contemporâneo</option>
+                        <option value="fantasia" data-fantasia>Fantasia</option>
+                        <option value="suspense" data-suspense>Suspense</option>
+                    </select>
                 </fieldset>
+
+                <!-- todo: nome -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="nome">Nome do produto:</label>
                     <input class="produto__input required" type="text" name="nome" id="nome" data-nome placeholder="digite o nome..." required>
                 </fieldset>
+
+                <!-- todo:preco -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="preco">Preço:</label>
                     <input class="produto__input required" type="float" name="preco" id="preco" data-preco placeholder="digite o preço..." required>
