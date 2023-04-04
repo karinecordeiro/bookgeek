@@ -13,6 +13,9 @@
     text-align: center;
     width: 500px;
     }
+.erro{
+    background-color: var(--cor-detalhe3);
+}
 .principal__titulo, .principal__icone{
     color: var(--cor-fundo);
     font-size: 2rem;

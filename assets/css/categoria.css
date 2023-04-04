@@ -44,6 +44,18 @@
     margin-bottom: 1rem;
     height: 230px;
 }
+.categoria__itemIndex{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    padding: 1rem;
+    margin-left: 1.25rem;
+    justify-content: center;
+    border-radius: 0.25rem;
+    box-shadow: 1px 4px 10px 1px var(--cor-detalhe2);
+    margin-bottom: 1rem;
+    height:180px;
+}
 .categoria__imagem{
     margin: 0 auto;
     width: 85px;

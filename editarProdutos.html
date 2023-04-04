@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/img/icone.png" type="image/png">
-    <title>Cadastro de produto</title>
+    <title>Editar produto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,42 +24,42 @@
     
     <main class="principal">
         <section class="produto">
-            <h2 class="produto__titulo">Cadastre seu livro</h2>
+            <h2 class="produto__titulo">Edite seu livro</h2>
             <form class="produto__formulario" id="formulario" data-formulario>
                 <!-- todo: url -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="url">URL da imagem:</label>
-                    <input class="produto__input required" type="url" name="url" id="url" data-url placeholder="cole a URL aqui..." required>
+                    <input class="produto__input required" type="url" name="url" id="url" placeholder="cole a URL aqui..." required data-url>
                 </fieldset>
 
                 <!-- todo: categoria -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="categoria">Categoria</label>
-                    <select id="categoria" name="categoria" class="produto__categorias" size="0" data-categoria required>
+                    <select id="categoria" name="categoria" class="produto__categorias" size="0" required data-categoria>
                         <option selected>Selecione uma opção...</option>
-                        <option value="Ficção Científica">Ficção Científica</option>
-                        <option value="Romance Histórico">Romance Histórico</option>
-                        <option value="Romance Contemporâneo">Romance Contemporâneo</option>
-                        <option value="Fantasia">Fantasia</option>
-                        <option value="Suspense">Suspense</option>
+                        <option value="Ficção Científica" data-ficcaoC>Ficção Científica</option>
+                        <option value="Romance Histórico" data-romanceH>Romance Histórico</option>
+                        <option value="Romance Contemporâneo" data-romanceC>Romance Contemporâneo</option>
+                        <option value="Fantasia" data-fantasia>Fantasia</option>
+                        <option value="Suspense" data-suspense>Suspense</option>
                     </select>
                 </fieldset>
 
                 <!-- todo: nome -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="nome">Nome do produto:</label>
-                    <input class="produto__input required" type="text" name="nome" id="nome" data-nome placeholder="digite o nome..." required>
+                    <input class="produto__input required" type="text" name="nome" id="nome" placeholder="digite o nome..." required data-nome>
                 </fieldset>
 
                 <!-- todo:preco -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="preco">Preço:</label>
-                    <input class="produto__input required" type="float" name="preco" id="preco" data-preco placeholder="digite o preço..." required>
+                    <input class="produto__input required" type="float" name="preco" id="preco" placeholder="digite o preço..." required data-preco>
                 </fieldset>
-                <input class="produto__botao" type="submit" name="enviar" id="enviar" value="cadastrar"/>
+                <input class="produto__botao" type="submit" name="enviar" id="enviar" value="editar"/>
             </form>
         </section>
     </main>
-    <script src="/assets/js/controller/cadastraProdutos-controller.js" type="module"></script>
+    <script src="/assets/js/controller/atualizaProdutos-controller.js" type="module"></script>
 </body>
 </html>
