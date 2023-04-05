@@ -12,7 +12,7 @@ const listaProdutos = () =>{
 }
 
 const criarProduto = (nome, imagemUrl, preco, categoria) => {
-    return fetch(`http://localhost:3000/produtos`, {
+    return fetch(`https://my-json-server.typicode.com/karinecordeiro/dbBookgeek/produtos`, {
         method: 'POST',
         headers: { 
             'Content-type' : 'application/json'
@@ -33,7 +33,7 @@ const criarProduto = (nome, imagemUrl, preco, categoria) => {
 }
 
 const removerProduto = (id) => {
-    return fetch(`http://localhost:3000/produtos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/karinecordeiro/dbBookgeek/produtos/${id}`, {
         method: 'DELETE'
     })
     .then(resposta => {
@@ -44,7 +44,7 @@ const removerProduto = (id) => {
 }
 
 const expecificarProduto = (id) => {
-    return fetch(`http://localhost:3000/produtos/${id}`)
+    return fetch(`https://my-json-server.typicode.com/karinecordeiro/dbBookgeek/produtos/${id}`)
     .then(resposta => {
         if(resposta.ok){
             return resposta.json()
@@ -53,7 +53,7 @@ const expecificarProduto = (id) => {
     })
 }
 const atualizarProduto = (id, imagemUrl, categoria, nome, preco)=>{
-    return fetch(`http://localhost:3000/produtos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/karinecordeiro/dbBookgeek/produtos/${id}`, {
         method: 'PUT',
         headers: {
             'Content-type' : 'application/json'
