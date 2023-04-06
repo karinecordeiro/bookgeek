@@ -47,15 +47,16 @@
 .categoria__itemIndex{
     display: flex;
     flex-direction: column;
-    width: 130px;
+    width: 175px;
     padding: 1rem;
     margin-left: 1.25rem;
     justify-content: center;
     border-radius: 0.25rem;
     box-shadow: 1px 4px 10px 1px var(--cor-detalhe2);
     margin-bottom: 1rem;
-    height:180px;
+    height: 200px;
 }
+
 .categoria__imagem{
     margin: 0 auto;
     width: 85px;
@@ -82,6 +83,22 @@
     font-size: 0.60rem;
     text-decoration: underline;
     font-weight: 600;
+}
+.categoria__verProduto{
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.95rem 0.25rem;
+    border: none;
+    background: var(--cor-detalhe2);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.categoria__verProduto:hover{
+    background-color: var(--cor-detalhe3);
+    color: var(--cor-detalhe2);
+    box-shadow: 1px 2px 1px 0px var(--cor-botao);
 }
 .categoria__divisaoBotao{
     margin-bottom: 0.5rem;

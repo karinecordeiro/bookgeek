@@ -9,6 +9,7 @@ const criaNovoItem = (nome, imagemUrl, preco) => {
                     <img class="categoria__imagem" src="${imagemUrl}" alt="imagem">
                     <h3 class="categoria__nome">${nome}</h3>
                     <h3 class="categoria__preco">${preco}</h3>
+                    <a href="#" class="categoria__verProduto">ver produto</a>
                 </li>
     `
     itemNovoProduto.innerHTML = conteudo;

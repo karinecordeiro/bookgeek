@@ -1,11 +1,82 @@
 {
   "produtos": [
     {
+      "imagemUrl": "https://img.travessa.com.br/livro/BA/af/afb6b9b6-767b-4dff-8efd-50ec0dae64a0.jpg",
+      "categoria": "Ficção Científica",
+      "nome": "Jogador número 1",
+      "preco": "R$ 24,89",
+      "id": 1
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/81zN7udGRUL.jpg",
+      "categoria": "Ficção Científica",
+      "nome": "Duna",
+      "preco": "R$ 45,50",
+      "id": 2
+    },
+    {
+      "imagemUrl": "https://www.martinclaret.com.br/wp-content/uploads/2017/04/81uaQ7IZAaL.jpg",
+      "categoria": "Romance Histórico",
+      "nome": "Orgulho e preconceito",
+      "preco": "R$ 18,90",
+      "id": 3
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/81JtKHh6ojL.jpg",
+      "categoria": "Romance Histórico",
+      "nome": "E o vento levou",
+      "preco": "R$ 37,99",
+      "id": 4
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/81Vhnel+xxL.jpg",
+      "categoria": "Romance Contemporâneo",
+      "nome": "Todas as suas imperfeições",
+      "preco": "R$ 29,90",
+      "id": 5
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/61wlrmv1b4L.jpg",
+      "categoria": "Romance Contemporâneo",
+      "nome": "Teto para dois",
+      "preco": "R$ 28,70",
+      "id": 6
+    },
+    {
       "imagemUrl": "https://cf.shopee.com.br/file/a3a3b0c312ea2497220fbc12f53b945b",
       "categoria": "Fantasia",
       "nome": "A rainha vermelha",
       "preco": "R$ 31,20",
-      "id": 1
+      "id": 7
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/81RgnNtVIlL.jpg",
+      "categoria": "Fantasia",
+      "nome": "Everless",
+      "preco": "R$ 35,45",
+      "id": 8
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/41z0zRILKYL._SX342_SY445_QL70_ML2_.jpg",
+      "categoria": "Suspense",
+      "nome": "Quarto de hóspedes",
+      "preco": "R$ 19,25",
+      "id": 9
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/51jMfnBsk+L.jpg",
+      "categoria": "Suspense",
+      "nome": "Lista de convidados",
+      "preco": "R$ 24,99",
+      "id": 10
+    },
+    {
+      "imagemUrl": "https://m.media-amazon.com/images/I/915nYQ6DboL.jpg",
+      "categoria": "Fantasia",
+      "nome": "Cidade da lua crescente",
+      "preco": "R$ 47,19",
+      "id": 11
     }
+
   ]
 }
