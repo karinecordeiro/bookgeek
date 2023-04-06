@@ -8,5 +8,8 @@
   },
   "author": "Karine",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "simple-mask-money": "^3.0.1"
+  }
 }

@@ -54,12 +54,14 @@
                 <!-- todo:preco -->
                 <fieldset class="produto__conjunto">
                     <label class="produto__label" for="preco">Preço:</label>
-                    <input class="produto__input required" type="float" name="preco" id="preco" data-preco placeholder="digite o preço..." required>
+                    <input class="produto__input required" type="float" name="preco" id="preco" inputmode="numeric" value="0,00" data-preco required>
                 </fieldset>
                 <input class="produto__botao" type="submit" name="enviar" id="enviar" value="cadastrar"/>
             </form>
         </section>
     </main>
     <script src="/assets/js/controller/cadastraProdutos-controller.js" type="module"></script>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js"></script>
+    <script src="/assets/js/mascara/mascaraValor.js"></script>
 </body>
 </html>
