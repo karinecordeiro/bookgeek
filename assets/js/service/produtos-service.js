@@ -1,6 +1,7 @@
 //REQUISIÇÕES COM A API
 
 const listaProdutos = () =>{
+    // return fetch(`http://localhost:3000/produtos`)
     return fetch(`https://my-json-server.typicode.com/karinecordeiro/dbBookgeek/produtos`)
     .then(resposta => {
         if(resposta.ok){

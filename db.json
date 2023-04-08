@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "imagemUrl": "https://img.travessa.com.br/livro/BA/af/afb6b9b6-767b-4dff-8efd-50ec0dae64a0.jpg",
+      "imagemUrl": "https://m.media-amazon.com/images/I/917GI-fesVL.jpg",
       "categoria": "Ficção Científica",
       "nome": "Jogador número 1",
       "preco": "R$ 24,89",
@@ -43,7 +43,7 @@
       "id": 6
     },
     {
-      "imagemUrl": "https://cf.shopee.com.br/file/a3a3b0c312ea2497220fbc12f53b945b",
+      "imagemUrl": "https://m.media-amazon.com/images/I/71XnifrVw3L.jpg",
       "categoria": "Fantasia",
       "nome": "A rainha vermelha",
       "preco": "R$ 31,20",
@@ -77,6 +77,5 @@
       "preco": "R$ 47,19",
       "id": 11
     }
-
   ]
 }
